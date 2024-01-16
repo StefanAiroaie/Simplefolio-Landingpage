@@ -54,5 +54,11 @@ h5,
 h6 {
   font-family: var(--fontBold);
   color: var(--Color-03);
+  text-align: center;
+
+}
+
+header p {
+  text-align: center;
 
 }
