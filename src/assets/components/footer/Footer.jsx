@@ -2,7 +2,7 @@ const Footer = () => {
     const curentDate = new Date()
     return (
         <>
-            <p>Copyright Stefan Airoaie {curentDate.getUTCFullYear()}</p>
+            <p className="footer">Copyright Stefan Airoaie {curentDate.getUTCFullYear()}</p>
 
         </>);
 }

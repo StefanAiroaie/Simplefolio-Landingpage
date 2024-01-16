@@ -1,6 +1,7 @@
-const Skill = () => {
+import "./skill.css"
+const Skill = (props) => {
     return (<>
-
+        <p className="skillName">{props.title}</p>
     </>);
 }
 

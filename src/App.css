@@ -1,6 +1,6 @@
 @font-face {
   font-family: Poppins-Light;
-  src: url("./assets/fonts/Poppins/Poppins-Light.ttf");
+  src: url("./assets/fonts/Poppins/Poppins-ExtraLight.ttf");
 }
 
 @font-face {
@@ -30,20 +30,19 @@ html {
   font-family: var(--fontRegular);
   background-color: var(--Color-01);
   color: var(--Color-04);
+
 }
 
 a {
   text-decoration: none;
   color: var(--Color-04);
   font-family: var(--fontLight);
-
+  font-size: .8rem;
+  text-transform: uppercase;
 }
 
-.projects {
-  display: flex;
-  justify-content: center;
-  gap: .9rem;
-
+a:hover {
+  color: var(--Color-03);
 }
 
 h1,
@@ -55,10 +54,51 @@ h6 {
   font-family: var(--fontBold);
   color: var(--Color-03);
   text-align: center;
+  text-transform: uppercase;
 
 }
 
 header p {
   text-align: center;
 
+}
+
+
+span {
+  color: var(--Color-05);
+  font-family: var(--fontLight);
+}
+
+.footer {
+
+  font-family: var(--fontLight);
+  font-size: .7rem;
+  text-align: center;
+
+}
+
+
+button {
+  padding: .5rem .9rem;
+  text-align: center;
+  border: 1px solid var(--Color-05);
+  background-color: var(--Color-03);
+  font-size: .7rem;
+  text-transform: uppercase;
+  font-family: var(--fontLight);
+  border: 1px solid var(--Color-05);
+}
+
+button:hover {
+  background-color: var(--Color-02);
+  color: var(--Color-03);
+
+}
+
+
+.flexCollumnCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

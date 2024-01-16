@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    padding: .5rem;
 }
 
 ul {
@@ -9,3 +9,8 @@ ul {
     gap: .5rem;
     list-style: none
 }
+
+#logo {
+    font-size: 1rem;
+    font-family: var(--fontBold);
+  }
